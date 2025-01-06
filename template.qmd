@@ -1,22 +1,19 @@
 ---
 conference: GISRUK 2023
-title: The Title of the Paper
+title: GIS vs The City Council - Data Analytics, Collective Intelligence and Policy Dust-ups
 author:
-  - name: First Author
+  - name: Adam Dennett
     affiliations:
-      - name: University of Somewhere
-        department: Department of Something
-        address: 0 University Rd
-        city: Somewhere
+      - name: University College London
+        department: Bartlett Centre for Advanced Spatial Analysis
+        address: Gower Street
+        city: London
         country: UK
-        postal-code: PO0 1ST
-      - Something Else Institute
-    orcid: 0000-0000-0000-0000
-    email: author.a@university.edu
-    url: https://university.edu/author.a
-  - name: Second Author
-    affiliations:
-      - Something Else Institute
+        postal-code: Wc1E 6BT
+    orcid: 0000-0001-8036-0185
+    email: a.dennett@ucl.ac.uk
+    url: https://profiles.ucl.ac.uk/28795-adam-dennett
+
 abstract: |
   Summary of no more than 100 words. Also select 5 keywords or short phrases relevant to the work and list them below in the keywords list.
 keywords: [template, demo]
