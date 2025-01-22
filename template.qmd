@@ -16,94 +16,83 @@ author:
 
 abstract: |
   Summary of no more than 100 words. Also select 5 keywords or short phrases relevant to the work and list them below in the keywords list.
-keywords: [template, demo]
+keywords: [Schools, Spatial Analysis, Brighton and Hove]
 bibliography: bibliography.bib
 format:
   gisruk-pdf:
     keep-tex: true
 ---
 
-# Introduction {#sec-introduction}
+## Introduction {#sec-introduction}
 
-This paper explores the role of data visualisation, spatial analysis and modelling in developing an evidence base for a community collective intelligence, and how this can be used to directly challenge poor decision-making and disruptive policy proposals - generating a direct line to the policy makers themselves, the local and national press, and national policy makers, while unearthing political ambition, ulterior motives and chicanery at the same time.
+This paper explores the role of data visualisation, spatial analysis and modelling in developing an evidence base for a community collective intelligence, and how this can be used to directly challenge poor decision-making and disruptive policy proposals - generating a direct line to the policy makers themselves, the local and national press, and national institutions, while at the same time unearthing a intriguing story arc of political ambition, ulterior motives and chicanery.
 
-The case study is Brighton and Hove City Council's (BHCC) recent attempt to re-organise secondary school admissions in the city. The case-study highlights the crucial role that open scientific practices can play alongside rapid online publication, in helping communities to better understand complex issues while at the same time underpinning and galvanising a local collective intelligence and self-organising community resistance to challenge those in power.
+The case study is Brighton and Hove City Council's (BHCC) recent (and potentially still on-going - depending on what happens) attempt to re-organise secondary school admissions in the city. The case-study highlights the crucial role that open scientific practices and rapid online publication can play in helping communities better understand complex issues while at the same time underpinning and galvanising a local collective intelligence leading to the self-organisation of a community resistance movement, challenging those in power.
 
 ## Background {#sec-subsections}
 
-In October 2024, without fanfare, BHCC launched a public engagement exercise where they solicited opinions from the public on proposals to change secondary school admissions in the city. The Council is the admission authority for the community schools in Brighton and Hove (a rare example of a local authority where most schools are still under council control and have not been academised), and is required by section 88C of the School Standards and Framework Act 1998 (“the SSFA 1998”) to determine its admission arrangements in advance of each school year, but has a statutory duty to consult with the public on any changes it wishes to make. The proposals included reducing Pupil Admission Numbers (PANs) at several schools and redrawing catchment boundaries. The council's stated aims were to improve educational outcomes for disadvantaged pupils and to ensure that all schools in the city were viable in the face of a projected decline in the overall numbers of students in the city over the coming decade.
+In October 2024, without fanfare, BHCC launched a public engagement exercise where they solicited opinions from the public on proposals to change secondary school admissions in the city. The Council is the admission authority for the community schools in Brighton and Hove (a rare example of a local authority where most schools are still under council control and have not been academised), and is required by section 88C of the School Standards and Framework Act 1998 (“the SSFA 1998”) to determine its admission arrangements in advance of each school year, but has a statutory duty to consult with the public on any changes it wishes to make. The proposals included reducing Pupil Admission Numbers (PANs) at several schools in the city and redrawing catchment boundaries. The council's stated aims were to improve educational outcomes for disadvantaged pupils and to ensure that all schools in the city were viable in the face of a projected decline in the overall numbers of students in the city over the coming decade.
 
-Brighton and Hove has been something of a curiosity case study for education-focused academics over the years as its secondary school admissions system is already quite different from every other local education authority (LEA) in England. As detailed by [@allen2013], in 2008 the city moved away from a distance-based tie-breaker for over subscription, introducing new catchment areas (common in many LEAs) and a 'lottery' or random allocation for over subscription (not used anywhere else to this extent). The motivation for the 2008 change was to break the perceived ability of those with the financial means to move closeer to popular schools to ensure their children got a place, often leaving those who were financially less well-off further away and excluded from the best schools. However, as [@allen2013] outline in their paper, early evidence suggested that ambitions to reduce social segregation had not necessarily been realised.
+Brighton and Hove has been something of a curiosity case study for education-focused journalists and academics over the years as its secondary school admissions system is already quite different from (and arguably more progressive than) every other local education authority (LEA) in England. As detailed by Millar [-@millar2017] and Allen et al. [-@allen2013], in 2008 the city moved away from a distance-based tie-breaker for over subscription, introducing new catchment areas (common in many LEAs) and a 'lottery' or random allocation for over subscription (not used anywhere else to this extent). One of the motivations for the 2008 change was to break the perceived ability of those with the financial means to move closer to popular schools to ensure their children got a place, often leaving those who were financially less well-off further away and excluded from the best schools. However, as Allen et al. [-@allen2013] outline in their paper, early evidence suggested that the ambitions to reduce social segregation with the new system had not necessarily been realised.
 
-In May 2023, Local Elections took place in Brighton and Hove and for the first time since 1999, the Labour Party won an overall majority in the council, giving it the power to vote through policies without needing to win support from other parties.
+Various subsequent attempts to adjust the 2008 system had been tried and failed, mainly because no political party had overall control of the council so could not command a majority for controversial changes. Then in May 2023, Local Elections took place in Brighton and Hove and for the first time since 1999, the Labour Party won an overall majority in the council, giving it the power to vote through policies without needing to win support from other parties.
 
 ## From Evidence Gap to Funded Resistance Movement in Three Months
 
-The public were told that they had just three weeks in the initial engagement phase, to comment on three proposed catchment boundary changes and reductions in intake numbers at a number of the city's popular schools. They were told that following the engagement phase the council would consider the response and then, potentially, formulate a proposal to be considered in a formal Public Consultation phase in advance of a decision being made.
+The public were told that they had just three weeks in the initial engagement phase, to comment on three proposed catchment boundary changes and reductions in intake numbers at a number of the city's popular schools. They were told that following this the council would consider the response and then formulate a proposal to be considered in a formal Public Consultation phase preceding a full decision.
 
-However, the Council failed to supply the city with the kind of supporting information that would be required to make informed contributions: maps were not detailed, sub-city population distributions and projections were not provided, school intake data were not provided, school finance data were not provided, assessments of traffic and travel impacts were missing, a jusification for a focus on smoothing free school meal distributions over and above any other considerations was not forthcoming, leaving many frustrated and angry at not being able to make an informed contribution.
+However, the Council failed to supply the city with the kind of supporting information that would be required to make informed contributions: maps were not detailed enough, sub-city population distributions and projections or school intake data were not provided to help assess demand, school finance data were not provided to allow for viability to be understood, assessments of traffic and travel impacts were missing, a justification for a focus on smoothing free school meal distributions over and above any other considerations was not forthcoming. This all left many frustrated and angry at not being able to make an informed contribution to the engagement.
 
-In this paper, I will outline how an initial attempt to carry out some preliminary spatial analysis to fill the information void - rapidly published online via Quarto and github pages over a three week period - quickly snowballed into a local WhatsApp community of 500 members; a self-organised working group of academics, software developers, teachers, school governors, lawyers, marketing professionals, civil servants, charity workers and others; meetings with Councillors and Council Officers; radio interviews, podcasts, news stories and newspaper articles; online confrontations; memes and satirical songs; and legal action.
+As an affected parent and academic with the skills to contribute information to the void, the opportunity presented itself to participate in a meaningful way. Over this initial 3-week period, a series of research briefings were rapidly published online via Quarto and github pages and promoted through a Facebook page co-opted by the council for engagement activities. To date the pieces have been viewed 6,528 times by some 3000+ active users.
 
-I will document how many elements of a GIScientists standard toolkit have been brought to bear to shine a light on a complex problem, call into question false premises and assumptions, propose potential solutions and change the narrative of the city-wide conversation. The work includes:
+The research outputs shone a light on issues such as PAN reductions being proposed for popular schools, but not low-demand schools; the challenges of the spatial distribution of schools relative to student populations; and the fact that some of the proposals would see students travelling from the centre of the City to a remote school 8km to the east, in a village beyond the main city boundaries.
 
--   Basic digitisation and choropleth mapping
+The community were able to coalesce around the findings, which for many confirmed their suspicions that a full evidence-base had not been considered. A group of families in the centre of the city whose children now faced the prospect of being sent to a school miles from their home, started a WhatsApp community which rapidly grew to some 500 members, out of which sprang a self-organised "working group" of academics, software developers, a mechanic, teachers, school governors, lawyers, marketing professionals, civil servants, charity and third-sector workers and others. The group, which became known as the "[Parent Support Group](https://www.parentsupport.group/)" had an organising principle - **School kids need community,\
+*not* commuting** - and a simple mission:
 
--   The use of simple scatter plots and histograms to contextualise local data observations
+> This parent group supports the local authority in its ambitions to improve educational outcomes for children in districts poorly served by local secondary schools, but opposes the Council’s proposed changes to admissions arrangements and advocates for a transparent, evidence-led approach from Brighton and Hove Council.
 
--   Demographic estimates and projections
+What followed were numerous meetings with Councillors and Council Officers; radio interviews, podcasts, news stories and newspaper articles; online spats; memes, satirical songs; and, sadly, legal action.
 
--   Demand ratio calculations for schools
+## Key GIScience Analysis Contributions to the Debate
 
--   Travel time estimates and accessibility calculations
+### Challenging the attainment gap narrative
 
--   The use of AI to rapidly digitise data languishing in PDFs
+One justification for the radical changes produced early on by the council was that Brighton and Hove was doing badly for its disadvantaged students, this city had an unusual attainment gap and this this justified a radical shake up. However a graph produced by the council compared the attainment of the city's disadvantaged students to the national mean (the city doing worse than the mean).
 
--   Spatial and Temporal school demand analysis and demand scenario estimates
+Howver, the levels of attainment for advantaged and disadvantaged students at the Local Education Authority level are not normally distributed and distorted by London. The histogram below, plotting every local authority alongside every other, revealed that the city is actually doing better than the national median for both disadvantaged and non-disadvantaged students and the gap is a function of non-disadvantaged students having some of the highest performance in the country.
 
--   Spatial Interaction and location allocation modelling
+![](images/attainmentgap_95.png)
 
--   Visualisation and modelling of the factors contributing to secondary school attainment along with the introduction of mixed effects models to a lay audience
+### Understanding the distribution of students and schools
 
-## Results
+One conceptual problem facing everyone in the city was a poor understanding of where children lived and crucially, where they lived in relation to the city's secondary schools. The map below allowed people, for the first time, to understand how current catchment areas mapped on to populations and schools locations, revealing that one school in particular was not only spatially isolated, but also surrounded by low numbers of students.
 
-Several important observations emerged from the early stages of this analysis
+![](images/map_11_year_olds_2024.png)
 
-Lack of Transparency: The council failed to publish details of its methodology for calculating school place demand and forecasting pupil numbers. The author of one report even implores the council to release this information to facilitate better analysis and scrutiny from the community.
+### School demand
 
-Inequitable PAN Reductions: Analysis of council-published data suggested that proposed reductions in school PANs disproportionately affected areas of high demand while having less impact on areas of low demand.
+A crucial piece of the puzzle was understanding how demand for schools mapped on to proposed changes (or not) to school PANs. BHCC publishes the numbers of applications and offers for each school each year, but has done so via static web-pages and PDFs - nowhere was a time-series available. So using ChatGPT to parse images taken from PDFs, it was possible to, relatively quickly, piece together a time-series of applications and offers for each school in the city. The plot below reveals how for three of the city's smallest schools according to their latest intakes, one, Longhill, has been in long-term secular decline for a decade, with an intake well below a persistently high PAN. PAN levels are important as a school's income is linked directly to its number of students. With a prescribed number of places in a city, if one school like Longhill has an artificially high number of places and popular schools are being told to reduce their numbers, there is an imbalance in the system which negatively impacts other schools.
 
-Questionable Rationale for School Closures: The council had suggested that schools with a PAN of fewer than 180 students would not be viable, potentially leading to their closure. However, analysis of national school data showed that this assumption was incorrect, with many smaller schools operating successfully in other parts of the country.
+![](images/yearly_offers_sml.png)
 
-Potential for Displacement and Increased Travel: Council proposals, specifically those relating to catchment boundary changes and a "marginal ballot" for school allocation, were likely to increase the number of students travelling long distances to school.
+### Spatial configuration of schools
 
-These observations, based on preliminary analysis and a paucity of data released by the council, raised significant concerns within the community, prompting further investigation and more detailed spatial analysis and modelling.
+To confirm the hypothesis that Longhill school was simply too large and in the wrong place, a simple spatial interaction / gravity model was constructed using counts of students in LSOAs, a distance matrix using the OSM road network and travel times estimated using `R5R` and the locations of schools. Setting each school to have identical attractiveness values was a useful method to show simply the spatial effects on the system. Running a model with Longhill in its current location and then a hypothetical new location in the near-east of the city produced starkly contrasting results: the school shifts from being the least popular school in the city to the most popular. This evidence underpinned new conversations with councillors and the community around a long-term plan for relocating the school.
 
-The Brightopia Model
+![](images/longhill_relocate.png)
 
-To better understand the spatial dynamics of school admissions in Brighton and Hove, I developed a spatial interaction model called “Brightopia”. This model explored a hypothetical scenario where all secondary schools were identical in quality and facilities, and the only factor influencing parental choice was the distance to school. The model aimed to disentangle the impact of location and distance on school choice from other factors such as school performance, reputation, or catchment areas.
+### The role of disadvantage vs absence in school-level attainment. 
 
-To develop the model, I used data on the locations of secondary schools and the spatial distribution of 11-year-old pupils in the city. A cost matrix of travel times between residential areas and schools was generated using the Open Street Map road network using `R5R`, considering both walking and public transport options. These travel times were then used to estimate the likely demand for each school (assuming all schools had the same attractiveness), based on the assumption that parents would prefer schools closer to their homes.
+A final big contribution to the narrative was around the importance of disadvantage and social mixing in educational outcomes. Following the initial engagement exercise, despite clear opposition from the public for the idea of forcing students to travel across the city to attend schools, a new 'open allocation' priority was introduced for the statutory consultation, essentially giving students from outside of a catchment a higher priority than those inside it who did not have a sibling link at the school or were not eligible for Free School Meals. The next effect for over-subscribed central catchments was to displace large numbers of students (some 10% of the total students in the city) via giving higher priority to any out-of-catchment student up to 20% of a school's total places.
 
-The Brightopia model produced several key findings that provided further evidence against the council's proposals:
+The justification offered by the council was to create more social mixing, justified by a weak effect linking levels of disadvantage to attainment at the school level to attainment in a paper by [@gorard2019]. In analysing school level data for England, it was possible to demonstrate a non-linearity in the relationship between concentrations of disadvantage and attainment which meant that for the levels of deprivation experienced in Brighton and Hove, no positive effect on attainment was likely to occur for any school level chances in disadvantage, further more, we were able to show a much stronger relationship between attainment and persistent absence - an issue of particular relevance for the city which experiences far higher persistent absence rates than other LEAs in England.
 
-School Location and Accessibility: The model highlighted the importance of school location and accessibility in parental choice. Schools in central locations with good transport links were likely to be in high demand, even in a hypothetical scenario where all schools were equal in quality. It demonstrated that on school in particular - Longhill School - in the east of the city, has serious accessibility challenges and was used as evidence to support a proposal that a viable long-term solution that should be considered would be to relocate the school and reduce it in size. 
+![](images/Attainment8_disadvantage.png)
 
-Impact of Catchment Boundaries: The model demonstrated that existing catchment boundaries did not align well with the spatial distribution of pupils and demand for school places. This finding suggested that redrawing catchment boundaries in the ways proposed would be unlikely to solve the issues the council was trying to address.
+![](images/Attainment8_absence.png)
 
-Potential for Long-Distance Travel: Analysis of the relative locations of pupils and schools and proposed intake capacities demonstrated that there would be significant increases in travel distances for many pupils under the council's proposals. This finding raised concerns about the negative impacts of long-distance travel on pupil well-being, educational attainment, and the environment.
-
-Further Spatial Analysis and Modelling
-
-In addition to the Brightopia model, further spatial analysis and modelling was undertaken to develop a more comprehensive evidence base. This included:
-
-Analysis of persistent absence data: This analysis revealed that persistent absence was a far more significant factor in educational attainment than disadvantage, a finding supported by national research.
-
-Statistical modelling of school performance: This modelling was used to assess the relative impact of different factors on school performance, including persistent absence, disadvantage, and Ofsted ratings.
-The results of this further analysis were again shared with the community through online articles and presentations. This process of collaborative research and knowledge sharing fostered a growing collective intelligence within the community, providing a robust and evidence-based platform to challenge the council's proposals.
-
-
-Challenging Poor Decision Making
+Discussion
 
 The evidence generated by the community's spatial analysis and modelling was used to challenge the council's proposals in a number of ways:
 
@@ -111,21 +100,17 @@ Identifying flaws in the council's data and assumptions: The analysis showed tha
 
 Highlighting the unintended consequences of the proposals: The analysis showed that the council's proposals were likely to lead to increased levels of pupil displacement, increased travel times for pupils, and a negative impact on school performance.
 
-
 Investing in tackling persistent absence: The community advocated for shifting the council's focus to tackling persistent absence, given its strong link to educational attainment.
 
-The community presented its findings and alternative proposals at public meetings and through written submissions to the council. 
+The community presented its findings and alternative proposals at public meetings and through written submissions to the council.
 
-Conclusion
-The case of Brighton and Hove secondary school admissions demonstrates the power of spatial analysis and modelling in developing collective intelligence. By collecting, analysing, and sharing data, the community could:
+Conclusion The case of Brighton and Hove secondary school admissions demonstrates the power of spatial analysis and modelling in developing collective intelligence. By collecting, analysing, and sharing data, the community could:
 
 Better understand a complex problem.
 
 Identify flaws in the council's decision-making.
 
-Develop alternative solutions.
-This case also highlights the importance of open data and community engagement in the policy-making process. By making data available and engaging with the community, the council can make better decisions more likely to be supported by the public. Spatial analysis and modelling, when combined with open data and community engagement, can be powerful tools for holding local government to account and ensuring that decisions are made in the best interests of the community.
-
+Develop alternative solutions. This case also highlights the importance of open data and community engagement in the policy-making process. By making data available and engaging with the community, the council can make better decisions more likely to be supported by the public. Spatial analysis and modelling, when combined with open data and community engagement, can be powerful tools for holding local government to account and ensuring that decisions are made in the best interests of the community.
 
 # References and Citations {#sec-cite}
 
@@ -137,7 +122,7 @@ Abstracts should be submitted in unrestricted pdf format. Authors are requested 
 
 # Acknowledgements {.appendix .unnumbered}
 
-Acknowledgement should be made of any funding bodies who have supported the work reported in the paper, of those who have given permission for their work to be reproduced or of individuals whose particular assistance is due recognition. Acknowledge data providers here where appropriate.
+I would like to thank Brighton and Hove City Council for ruining my life for the last 4 months. I would like to thank members of the Parent Support Group for their unwavering committment, support, skill, humour and comradery throughout this period.
 
 # Biographies {.appendix .unnumbered}
 
