@@ -9,14 +9,14 @@ author:
         address: Gower Street
         city: London
         country: UK
-        postal-code: Wc1E 6BT
+        postal-code: WC1E 6BT
     orcid: 0000-0001-8036-0185
     email: a.dennett@ucl.ac.uk
     url: https://profiles.ucl.ac.uk/28795-adam-dennett
 
 abstract: |
-  Summary of no more than 100 words. Also select 5 keywords or short phrases relevant to the work and list them below in the keywords list.
-keywords: [Schools, Spatial Analysis, Brighton and Hove]
+  The paper outlines the ongoing role that the GIScience toolkit is playing in contributing to a community-based collective intelligence effort challenging proposals on a new secondary schools admissions system in Brighton and Hove, England. 
+keywords: [Schools, Spatial Analysis, Brighton and Hove, Collective Intelligence]
 bibliography: bibliography.bib
 format:
   gisruk-pdf:
@@ -25,105 +25,72 @@ format:
 
 ## Introduction {#sec-introduction}
 
-This paper explores the role of data visualisation, spatial analysis and modelling in developing an evidence base for a community collective intelligence, and how this can be used to directly challenge poor decision-making and disruptive policy proposals - generating a direct line to the policy makers themselves, the local and national press, and national institutions, while at the same time unearthing a intriguing story arc of political ambition, ulterior motives and chicanery.
+This paper explores the role of data visualisation, spatial analysis and modelling in developing an evidence base for a community collective intelligence [@mulgan2018], and how this can be used to directly challenge poor decision-making and disruptive policy proposals - generating a direct line to the policy makers themselves, the local and national press, and national institutions, while at the same time unearthing a intriguing story arc of personal ambition, ulterior motives and political chicanery.
 
-The case study is Brighton and Hove City Council's (BHCC) recent (and potentially still on-going - depending on what happens) attempt to re-organise secondary school admissions in the city. The case-study highlights the crucial role that open scientific practices and rapid online publication can play in helping communities better understand complex issues while at the same time underpinning and galvanising a local collective intelligence leading to the self-organisation of a community resistance movement, challenging those in power.
+The case study is Brighton and Hove City Council's (BHCC) recent attempt to re-organise secondary school admissions in the city. The case-study highlights the crucial role that open scientific practices and rapid online publication can play in helping communities better understand complex issues while at the same time underpinning and galvanising a local collective intelligence leading to the self-organisation of a community resistance movement, challenging those in power and the decisions they make.
 
-## Background {#sec-subsections}
+## Background {#sec-background}
 
-In October 2024, without fanfare, BHCC launched a public engagement exercise where they solicited opinions from the public on proposals to change secondary school admissions in the city. The Council is the admission authority for the community schools in Brighton and Hove (a rare example of a local authority where most schools are still under council control and have not been academised), and is required by section 88C of the School Standards and Framework Act 1998 (“the SSFA 1998”) to determine its admission arrangements in advance of each school year, but has a statutory duty to consult with the public on any changes it wishes to make. The proposals included reducing Pupil Admission Numbers (PANs) at several schools in the city and redrawing catchment boundaries. The council's stated aims were to improve educational outcomes for disadvantaged pupils and to ensure that all schools in the city were viable in the face of a projected decline in the overall numbers of students in the city over the coming decade.
+Brighton and Hove has been something of a curiosity case study for education-focused journalists and academics over the years as its secondary school admissions system is already quite different from (and arguably more progressive than) every other local education authority (LEA) in England [@millar2017] [@allen2013]. In October 2024, without fanfare, BHCC launched a public engagement exercise where they solicited opinions from the public on proposals to change secondary school admissions in the city. The Council is the admission authority for the community schools in Brighton and Hove (a rare example of a local authority where most schools are still under council control and have not been academised), and is required by section 88C of the School Standards and Framework Act 1998 (“the SSFA 1998”) to determine its admission arrangements in advance of each school year, but has a statutory duty to consult with the public on any changes it wishes to make. The proposals included reducing Pupil Admission Numbers (PANs) at several schools in the city and redrawing catchment boundaries. The council's stated aims were to improve educational outcomes for disadvantaged pupils and to ensure that all schools in the city were viable in the face of a projected decline in the overall numbers of students in the city over the coming decade. The outcomes that the public saw were hundreds of pupils artificially barred from attending their local schools and funnelled to declining schools on the geographic periphery of the local authority in order to make them financially viable.
 
-Brighton and Hove has been something of a curiosity case study for education-focused journalists and academics over the years as its secondary school admissions system is already quite different from (and arguably more progressive than) every other local education authority (LEA) in England. As detailed by Millar [-@millar2017] and Allen et al. [-@allen2013], in 2008 the city moved away from a distance-based tie-breaker for over subscription, introducing new catchment areas (common in many LEAs) and a 'lottery' or random allocation for over subscription (not used anywhere else to this extent). One of the motivations for the 2008 change was to break the perceived ability of those with the financial means to move closer to popular schools to ensure their children got a place, often leaving those who were financially less well-off further away and excluded from the best schools. However, as Allen et al. [-@allen2013] outline in their paper, early evidence suggested that the ambitions to reduce social segregation with the new system had not necessarily been realised.
+## From Evidence Gap to Resistance Movement {#sec-narrative}
 
-Various subsequent attempts to adjust the 2008 system had been tried and failed, mainly because no political party had overall control of the council so could not command a majority for controversial changes. Then in May 2023, Local Elections took place in Brighton and Hove and for the first time since 1999, the Labour Party won an overall majority in the council, giving it the power to vote through policies without needing to win support from other parties.
+The public were told that they had just three weeks in the initial engagement phase, to comment on three proposed catchment boundary changes and reductions in intake numbers at a number of the city's popular schools. They were told that following this the council would consider the response and then formulate a proposal to be considered in a formal Public Consultation phase preceding a full decision. However, the Council failed to supply the city with the kind of supporting information that would be required to make informed contributions.
 
-## From Evidence Gap to Funded Resistance Movement in Three Months
+As an affected parent and academic with the skills to contribute information to the void, the opportunity presented itself to participate in a meaningful way and potentially assist the council in better understanding their system and supporting better policy. Over the initial 3-week engagement period, a series of research briefings were rapidly published online via Quarto and github pages [@dennett2024a; @dennett2024b; @dennett2024c] and promoted through a Facebook page co-opted by the council for engagement activities. To date the pieces have been viewed 6,528 times by some 3000+ active users.
 
-The public were told that they had just three weeks in the initial engagement phase, to comment on three proposed catchment boundary changes and reductions in intake numbers at a number of the city's popular schools. They were told that following this the council would consider the response and then formulate a proposal to be considered in a formal Public Consultation phase preceding a full decision.
+The research outputs shone a light on issues such as PAN reductions being proposed for popular schools but not low-demand schools; the challenges of the spatial distribution of schools relative to student populations; and the fact that some of the proposals would see students travelling from the centre of the city to a remote school in a village 8km to the east. Subsequent research briefings called into question the entire premise and weak academic foundations of the central argument being used by the council [@dennett2024d].
 
-However, the Council failed to supply the city with the kind of supporting information that would be required to make informed contributions: maps were not detailed enough, sub-city population distributions and projections or school intake data were not provided to help assess demand, school finance data were not provided to allow for viability to be understood, assessments of traffic and travel impacts were missing, a justification for a focus on smoothing free school meal distributions over and above any other considerations was not forthcoming. This all left many frustrated and angry at not being able to make an informed contribution to the engagement.
+The community were able to coalesce around the findings, which for many confirmed their suspicions that a full evidence-base had not been considered and the outcomes might negatively affect a large number of families. A group of families in the centre of the city whose children now faced the prospect of being sent to a school miles from their home, started a WhatsApp community which rapidly grew to some 500 members, out of which sprang a self-organised "working group" of academics, software developers, teachers, school governors, lawyers, marketing professionals, civil servants, charity and third-sector workers, a mechanic and others. The group, which became known as the "[Parent Support Group](https://www.parentsupport.group/)" had a single organising principle - **School kids need community, *not* commuting.**
 
-As an affected parent and academic with the skills to contribute information to the void, the opportunity presented itself to participate in a meaningful way. Over this initial 3-week period, a series of research briefings were rapidly published online via Quarto and github pages and promoted through a Facebook page co-opted by the council for engagement activities. To date the pieces have been viewed 6,528 times by some 3000+ active users.
+What followed were numerous meetings with Councillors and Council Officers; radio interviews, podcasts, news stories [@booker-lewis2024][@carden2024] and newspaper articles [@booker-lewis] ; a social media campaign, online spats; memes, satirical songs [@gully2024]; and, sadly, legal action. Underpinning everything, however, was a stream of rapidly produced evidence grounded in common GIScience methods. Unfortunately, as the weeks passed and meetings with councillors and council officials took place, with evidence presented and expertise proffered, it became clear that as the evidence did not support the proposals, for the architects it was not a welcome addition to the political process. Some key contributions to the debate are outlined below.
 
-The research outputs shone a light on issues such as PAN reductions being proposed for popular schools, but not low-demand schools; the challenges of the spatial distribution of schools relative to student populations; and the fact that some of the proposals would see students travelling from the centre of the City to a remote school 8km to the east, in a village beyond the main city boundaries.
-
-The community were able to coalesce around the findings, which for many confirmed their suspicions that a full evidence-base had not been considered. A group of families in the centre of the city whose children now faced the prospect of being sent to a school miles from their home, started a WhatsApp community which rapidly grew to some 500 members, out of which sprang a self-organised "working group" of academics, software developers, a mechanic, teachers, school governors, lawyers, marketing professionals, civil servants, charity and third-sector workers and others. The group, which became known as the "[Parent Support Group](https://www.parentsupport.group/)" had an organising principle - **School kids need community,\
-*not* commuting** - and a simple mission:
-
-> This parent group supports the local authority in its ambitions to improve educational outcomes for children in districts poorly served by local secondary schools, but opposes the Council’s proposed changes to admissions arrangements and advocates for a transparent, evidence-led approach from Brighton and Hove Council.
-
-What followed were numerous meetings with Councillors and Council Officers; radio interviews, podcasts, news stories and newspaper articles; online spats; memes, satirical songs; and, sadly, legal action.
-
-## Key GIScience Analysis Contributions to the Debate
+## Key GIScience Analysis Contributions to the Debate {#sec-analysis}
 
 ### Challenging the attainment gap narrative
 
-One justification for the radical changes produced early on by the council was that Brighton and Hove was doing badly for its disadvantaged students, this city had an unusual attainment gap and this this justified a radical shake up. However a graph produced by the council compared the attainment of the city's disadvantaged students to the national mean (the city doing worse than the mean).
+[One early justification for the radical proposals](https://adamdennett.github.io/BH_Schools_2/schools_wk3.html#a-stain-on-our-city---really) was that Brighton and Hove was doing badly for its disadvantaged students, it had an unusually large attainment gap and this this justified a radical shake up.
 
-Howver, the levels of attainment for advantaged and disadvantaged students at the Local Education Authority level are not normally distributed and distorted by London. The histogram below, plotting every local authority alongside every other, revealed that the city is actually doing better than the national median for both disadvantaged and non-disadvantaged students and the gap is a function of non-disadvantaged students having some of the highest performance in the country.
+However, [upon scrutinising the evidence and analysing the national picture](https://adamdennett.github.io/BH_Schools_2/stain_removal.html), this was not the case. Levels of attainment for advantaged and disadvantaged students at the Local Education Authority level are not normally distributed and distorted by London. Using the correct median (the council had used the mean in a skewed distribution) the city is actually doing better than the national average for both disadvantaged and non-disadvantaged students. Any attainment gap is a function of non-disadvantaged students having some of the highest attainment in the country outside of London.
 
-![](images/attainmentgap_95.png)
-
-### Understanding the distribution of students and schools
-
-One conceptual problem facing everyone in the city was a poor understanding of where children lived and crucially, where they lived in relation to the city's secondary schools. The map below allowed people, for the first time, to understand how current catchment areas mapped on to populations and schools locations, revealing that one school in particular was not only spatially isolated, but also surrounded by low numbers of students.
-
-![](images/map_11_year_olds_2024.png)
+![Frequency Distribution of Disadvantaged and Non-Disadvantaged Attainment, Local Education Authorities, England, 2022-23](images/attainmentgap_95.png){.Figure fig-align="center" width="75%"}
 
 ### School demand
 
-A crucial piece of the puzzle was understanding how demand for schools mapped on to proposed changes (or not) to school PANs. BHCC publishes the numbers of applications and offers for each school each year, but has done so via static web-pages and PDFs - nowhere was a time-series available. So using ChatGPT to parse images taken from PDFs, it was possible to, relatively quickly, piece together a time-series of applications and offers for each school in the city. The plot below reveals how for three of the city's smallest schools according to their latest intakes, one, Longhill, has been in long-term secular decline for a decade, with an intake well below a persistently high PAN. PAN levels are important as a school's income is linked directly to its number of students. With a prescribed number of places in a city, if one school like Longhill has an artificially high number of places and popular schools are being told to reduce their numbers, there is an imbalance in the system which negatively impacts other schools.
+A crucial piece of the puzzle was understanding how demand for schools mapped on to proposed changes (or not) to school PANs. BHCC publishes the numbers of applications and offers for each school each year, but has done so via static web-pages and PDFs - nowhere was a time-series available. AI tools were used to parse images from PDFs, to generate a useable database of time-series of applications and offers for each school in the city. The plot below (taken from [this piece](https://adamdennett.github.io/BH_Schools_2/schools_wk2.html#school-application-and-offer-history-across-brighton)) reveals that one of the city's lowest intake schools, Longhill, seen its intake decline for a decade and has always been well below its headline capacity (PAN). PAN levels are important as a school's income is linked directly to its number of students, with artificially high PANs in one school leaching potential capacity from others, affecting their viability.
 
-![](images/yearly_offers_sml.png)
+![Offers Made, 2013-2024, Three Lower-Intake Schools, Brighton and Hove](images/yearly_offers_sml.png){.Figure fig-align="center" width="75%"}
 
-### Spatial configuration of schools
+### Spatial configuration of schools and students
 
-To confirm the hypothesis that Longhill school was simply too large and in the wrong place, a simple spatial interaction / gravity model was constructed using counts of students in LSOAs, a distance matrix using the OSM road network and travel times estimated using `R5R` and the locations of schools. Setting each school to have identical attractiveness values was a useful method to show simply the spatial effects on the system. Running a model with Longhill in its current location and then a hypothetical new location in the near-east of the city produced starkly contrasting results: the school shifts from being the least popular school in the city to the most popular. This evidence underpinned new conversations with councillors and the community around a long-term plan for relocating the school.
+To confirm the hypothesis that Longhill school was simply too large and in the wrong place, a simple spatial interaction / gravity model (['Brightopia'](https://adamdennett.github.io/BH_Schools_2/schools_wk3.html#brightopia)) was constructed using counts of students in LSOAs, a distance matrix using the OSM road network and travel times estimated using `R5R` and the locations of schools. Setting each school to have identical attractiveness values was a useful method to show simply the spatial effects on the system. Running a model with Longhill in its current location and then a hypothetical new location in the near-east of the city produced starkly contrasting results: the school shifts from being the least popular school in the city to the most popular. This evidence sparked new conversations with councillors and the community around a long-term plan for relocating the school.
 
-![](images/longhill_relocate.png)
+!['Brightopia' Model (Longhill Relocated) - PAN 2024 vs Model Estimates (Distance only model)](images/longhill_relocate.png){.Figure fig-align="center" width="75%"}
 
-### The role of disadvantage vs absence in school-level attainment. 
+### The role of disadvantage vs absence in school-level attainment
 
 A final big contribution to the narrative was around the importance of disadvantage and social mixing in educational outcomes. Following the initial engagement exercise, despite clear opposition from the public for the idea of forcing students to travel across the city to attend schools, a new 'open allocation' priority was introduced for the statutory consultation, essentially giving students from outside of a catchment a higher priority than those inside it who did not have a sibling link at the school or were not eligible for Free School Meals. The next effect for over-subscribed central catchments was to displace large numbers of students (some 10% of the total students in the city) via giving higher priority to any out-of-catchment student up to 20% of a school's total places.
 
-The justification offered by the council was to create more social mixing, justified by a weak effect linking levels of disadvantage to attainment at the school level to attainment in a paper by [@gorard2019]. In analysing school level data for England, it was possible to demonstrate a non-linearity in the relationship between concentrations of disadvantage and attainment which meant that for the levels of deprivation experienced in Brighton and Hove, no positive effect on attainment was likely to occur for any school level chances in disadvantage, further more, we were able to show a much stronger relationship between attainment and persistent absence - an issue of particular relevance for the city which experiences far higher persistent absence rates than other LEAs in England.
+The justification offered by the council was to create more social mixing, justified by a weak effect linking levels of disadvantage to attainment at the school level to attainment in a paper by [@gorard2019]. In analysing school level data for England, it was possible to [demonstrate a non-linearity in the relationship between concentrations of disadvantage and attainment](https://adamdennett.github.io/BH_Schools_Consultation/absence.html#observations---fig-plot28-and-fig-plot68) which meant that for the levels of deprivation experienced in Brighton and Hove, no positive effect on attainment was likely to occur for any school level chances in disadvantage, further more, we were able to show a much stronger relationship between attainment and persistent absence - an issue of particular relevance for the city which experiences far higher persistent absence rates than other LEAs in England.
 
-![](images/Attainment8_disadvantage.png)
+![Attainment 8 vs Disadvantage, All State Secondary Schools, England, 2022-23](images/Attainment8_disadvantage.png){.Figure fig-align="center" width="75%"}
 
-![](images/Attainment8_absence.png)
+![Attainment 8 vs Persistent Absence, All State Secondary Schools, England, 2022-23](images/Attainment8_absence.png){.Figure fig-align="center" width="75%"}
 
-Discussion
+## Conclusions {#sec-conclusions}
 
-The evidence generated by the community's spatial analysis and modelling was used to challenge the council's proposals in a number of ways:
+At the time of writing, it is still unclear whether the weight of new evidence presented to the council and the city alongside meetings with politicians and advocates for different sides of the argument, presentations, social media campaigns and debates, newspaper articles, will lead to a change in policy.
 
-Identifying flaws in the council's data and assumptions: The analysis showed that the council had underestimated or deliberately ignored the demand for school places in some parts of the city, had not adequately considered the impact of its proposals on travel patterns, and had based its rationale for potential school closures on flawed assumptions.
+One of the unique features of this entire process in Brighton and Hove is unlike the experience of most academics who have worked with policy and decision makers; rather than interactions being collaborative with evidence being used in a formative stage to help shape better policy, this has been the opposite. Policy came first and the interactions with the policy makers have been combative. Evidence has been used to counter claims and challenge decisions which do not have the support of the whole city.
 
-Highlighting the unintended consequences of the proposals: The analysis showed that the council's proposals were likely to lead to increased levels of pupil displacement, increased travel times for pupils, and a negative impact on school performance.
+What is clear is the role that the modern GIScientist toolbox has played in helping galvanise a social movement and support a concerted challenge to contentious policy in a city.
 
-Investing in tackling persistent absence: The community advocated for shifting the council's focus to tackling persistent absence, given its strong link to educational attainment.
-
-The community presented its findings and alternative proposals at public meetings and through written submissions to the council.
-
-Conclusion The case of Brighton and Hove secondary school admissions demonstrates the power of spatial analysis and modelling in developing collective intelligence. By collecting, analysing, and sharing data, the community could:
-
-Better understand a complex problem.
-
-Identify flaws in the council's decision-making.
-
-Develop alternative solutions. This case also highlights the importance of open data and community engagement in the policy-making process. By making data available and engaging with the community, the council can make better decisions more likely to be supported by the public. Spatial analysis and modelling, when combined with open data and community engagement, can be powerful tools for holding local government to account and ensuring that decisions are made in the best interests of the community.
-
-# References and Citations {#sec-cite}
-
-A list of references cited should be provided at the end of the paper using the Harvard format as shown below. Citations of these within the text should be given as follows: papers such as an interesting one by @doi:10.1080/13658810600661607 and also interesting books [@cargill2021writing].
-
-# File format and length {#sec-file-format-len}
-
-Abstracts should be submitted in unrestricted pdf format. Authors are requested to keep to the word limit of 1500 words. The word limit includes the main body of the abstract and everything within (including captions etc.,) and the references. Not included in the word count is the title, author list, date, summary, keywords and author biographies
+## References {#sec-cite}
 
 # Acknowledgements {.appendix .unnumbered}
 
-I would like to thank Brighton and Hove City Council for ruining my life for the last 4 months. I would like to thank members of the Parent Support Group for their unwavering committment, support, skill, humour and comradery throughout this period.
+I would like to thank Brighton and Hove City Council for ruining my life for the last 4 months. I would like to thank members of the Parent Support Group for their unwavering commitment, support, skill, humour and camaraderie throughout this period.
 
 # Biographies {.appendix .unnumbered}
 
-All contributing authors should include a biography of no more than 50 words each outlining their career stage and research interests.
+Adam Dennett is a Professor of Urban Analytics in the Bartlett Centre for Advanced Spatial Analysis, University College London and current professional thorn in the side of Brighton and Hove City Council.
